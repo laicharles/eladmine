@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b90f63c7-6325-4289-bb67-adb02e20ee20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/eladmin-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/aop/limit/Limit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/aspect/LimitAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/aspect/LimitType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/exception/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/exception/EntityExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/exception/EntityNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/exception/handler/ApiError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/exception/handler/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/mapper/EntityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/redis/FastJsonRedisSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/redis/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/redis/StringRedisSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/swagger2/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/swagger2/SwaggerDataConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/ElAdminConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/EncryptUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/PageUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/RequestHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/SecurityContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/SpringContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/ThreadPoolUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/ThrowableUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/ValidationUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/domain/GenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/domain/GenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/domain/vo/ColumnInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/domain/vo/ColumnInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/domain/vo/TableInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/domain/vo/TableInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/repository/GenConfigRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/repository/GenConfigRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/rest/GenConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/rest/GenConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/rest/GeneratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/rest/GeneratorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/service/GenConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/service/GenConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/service/GeneratorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/service/GeneratorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/service/impl/GenConfigServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/service/impl/GenConfigServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/service/impl/GeneratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/service/impl/GeneratorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/utils/ColUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/utils/ColUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/utils/GenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/gree/utils/GenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-logging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-logging/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/aop/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/gree/aop/log/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/gree/aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/domain/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/gree/domain/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/repository/LogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/gree/repository/LogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/rest/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/gree/rest/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/service/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/gree/service/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/service/impl/LogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/gree/service/impl/LogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/service/query/LogQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/gree/service/query/LogQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/sql/eladmin.sql" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/sql/eladmin.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/AppRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/config/ConfigurerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/config/LogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/config/LogFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/config/LoggerQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/config/LoggerQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/config/VisitsInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/config/VisitsInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/domain/LogMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/domain/LogMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/domain/Visits.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/domain/Visits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/domain/vo/RedisVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/domain/vo/RedisVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/repository/VisitsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/repository/VisitsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/rest/LimitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/rest/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/rest/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/rest/VisitsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/rest/VisitsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/service/VisitsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/monitor/service/impl/VisitsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/service/impl/VisitsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/config/JobRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/config/QuartzConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/quartz/config/QuartzConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/domain/QuartzJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/quartz/domain/QuartzJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/domain/QuartzLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/repository/QuartzJobRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/repository/QuartzLogRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/rest/QuartzJobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/service/QuartzJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/quartz/service/QuartzJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/service/impl/QuartzJobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/service/query/QuartzJobQueryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/service/query/QuartzLogQueryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/task/TestTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/task/VisitsTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/utils/ExecutionJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/utils/QuartzManage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/utils/QuartzRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/rest/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/rest/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/security/AuthenticationInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/security/AuthorizationUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/security/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/security/JwtAuthorizationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/security/JwtAuthorizationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/security/JwtUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/security/JwtUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/service/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/service/JwtUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/utils/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/utils/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/domain/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/vo/MenuMetaVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/vo/MenuVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/repository/MenuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/PermissionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/repository/PermissionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/rest/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/rest/PermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/rest/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/MenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/PermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/MenuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/PermissionDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/RoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/dto/RoleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapper/PermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/mapper/PermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/query/MenuQueryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/query/PermissionQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/query/PermissionQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/query/RoleQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/query/RoleQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/query/UserQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/query/UserQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/resources/config/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/Controller.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/Controller.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/Mapper.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/Mapper.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/QueryService.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/QueryService.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/ServiceImpl.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/ServiceImpl.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-system/src/test/java/me/zhengjie/EladminSystemApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/config/MultipartConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/config/MultipartConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/AlipayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/domain/AlipayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/EmailConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/Picture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/QiniuConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/domain/QiniuConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/QiniuContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/domain/QiniuContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/VerificationCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/domain/VerificationCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/vo/EmailVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/domain/vo/EmailVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/vo/TradeVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/AlipayRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/repository/AlipayRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/EmailRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/PictureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/repository/PictureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/QiNiuConfigRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/QiniuContentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/VerificationCodeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/rest/AliPayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/rest/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/rest/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/rest/PictureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/rest/PictureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/rest/QiniuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/rest/QiniuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/rest/VerificationCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/rest/VerificationCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/AlipayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/service/AlipayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/PictureService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/QiNiuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/service/QiNiuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/VerificationCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/service/VerificationCodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/impl/AlipayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/impl/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/service/impl/EmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/impl/PictureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/service/impl/PictureServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/impl/QiNiuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/impl/VerificationCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/service/impl/VerificationCodeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/query/PictureQueryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/query/QiNiuQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/service/query/QiNiuQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/util/AliPayStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/gree/util/AliPayStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/util/AlipayUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/util/QiNiuUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eladmin-tools/target/" />
+    <ignored path="$PROJECT_DIR$/eladmin-system/target/" />
+    <ignored path="$PROJECT_DIR$/eladmin-common/target/" />
+    <ignored path="$PROJECT_DIR$/eladmin-logging/target/" />
+    <ignored path="$PROJECT_DIR$/eladmin-generator/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="eladmin" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="171">
+                <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eladmin-common/src/main/java/gree/config/SessionConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/resources/generator.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/resources/config/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eladmin-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/resources/config/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/resources/config/application-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>8000</find>
+      <find>port</find>
+      <find>http:</find>
+      <find>EmailController</find>
+      <find>logAround</find>
+      <find>me.zhengjie</find>
+      <find>GlobalExceptionHandler</find>
+      <find>BadRequestException</find>
+      <find>class BadRequestException</find>
+      <find>class MenuDTO</find>
+      <find>pro</find>
+      <find>fastjson</find>
+      <find>RedisConfig</find>
+      <find>generator</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>gree</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/rest/LogController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/config/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/eladmin-system/src/main/resources/fastjson.properties" />
+        <option value="$PROJECT_DIR$/eladmin-common/src/main/java/gree/config/SessionConfig.java" />
+        <option value="$PROJECT_DIR$/eladmin-system/src/main/java/gree/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/eladmin-system/src/main/resources/config/application-prod.yml" />
+        <option value="$PROJECT_DIR$/eladmin-system/src/main/resources/config/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\localRepository" />
+        <option name="mavenHome" value="F:/demo_testCommit/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="F:\demo_testCommit\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="el-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="el-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="929" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eladmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eladmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553582646779" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Multirun.MultiRunS">
+    <configuration name="194" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="address" value="10.2.46.194" />
+      <option name="command" value="java -jar eladmin*.jar" />
+      <option name="location" value="/root/test" />
+      <option name="passphrase" />
+      <option name="password" value="geli*2018" />
+      <option name="pathOrUrl" value="F:\java+vue\eladminProject\eladmin\eladmin-system\target\eladmin-system-1.5.jar" />
+      <option name="port" value="22" />
+      <option name="privateKey" />
+      <option name="tagId" value="0" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <option name="username" value="root" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../eladmin\pom.xml" goal="clean install" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/eladmin-system/pom.xml" goal="clean package" />
+      </method>
+    </configuration>
+    <configuration name="195" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="address" value="10.2.46.195" />
+      <option name="command" value="java -jar *.jar" />
+      <option name="location" value="/root/test" />
+      <option name="passphrase" />
+      <option name="password" value="geli*2018" />
+      <option name="pathOrUrl" value="F:\java+vue\eladminProject\eladmin\target\eladmin-1.5.pom" />
+      <option name="port" value="22" />
+      <option name="privateKey" />
+      <option name="tagId" value="0" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <option name="username" value="root" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../eladmin\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="196" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="address" value="10.2.46.196" />
+      <option name="command" value="java -jar *.jar" />
+      <option name="location" value="/root/test" />
+      <option name="passphrase" />
+      <option name="password" value="geli*2018" />
+      <option name="pathOrUrl" value="F:\java+vue\eladminProject\eladmin\target\eladmin-1.5.pom" />
+      <option name="port" value="22" />
+      <option name="privateKey" />
+      <option name="tagId" value="0" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <option name="username" value="root" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../eladmin\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="197" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="address" value="10.2.46.197" />
+      <option name="command" value="java -jar *.jar" />
+      <option name="location" value="/root/test" />
+      <option name="passphrase" />
+      <option name="password" value="geli*2018" />
+      <option name="pathOrUrl" value="F:\java+vue\eladminProject\eladmin\target\eladmin-1.5.pom" />
+      <option name="port" value="22" />
+      <option name="privateKey" />
+      <option name="tagId" value="0" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <option name="username" value="root" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../eladmin\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="D:\localRepository" />
+            <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="threads" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="MultiRunS" type="Multirun" factoryName="Multirun" editBeforeRun="true" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="true" delayTime="0">
+      <runConfiguration name="194" type="Deploy to Host" />
+      <runConfiguration name="195" type="Deploy to Host" />
+      <runConfiguration name="196" type="Deploy to Host" />
+      <runConfiguration name="197" type="Deploy to Host" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AppRun " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="eladmin-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gree.AppRun" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Default_(Template)_Project" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49623" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Deploy to Host.196" />
+      <item itemvalue="Deploy to Host.195" />
+      <item itemvalue="Deploy to Host.197" />
+      <item itemvalue="Deploy to Host.194" />
+      <item itemvalue="Multirun.MultiRunS" />
+      <item itemvalue="Spring Boot.AppRun " />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AppRun " />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b90f63c7-6325-4289-bb67-adb02e20ee20" name="Default Changelist" comment="" />
+      <created>1553215356318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553215356318</updated>
+      <workItem from="1553215357884" duration="3665000" />
+      <workItem from="1553239259073" duration="127000" />
+      <workItem from="1553239546827" duration="6499000" />
+      <workItem from="1553499539406" duration="370000" />
+      <workItem from="1553499987381" duration="2336000" />
+      <workItem from="1553502359038" duration="4663000" />
+      <workItem from="1553561149164" duration="3324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27130000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.21168688" />
+      <window_info id="Structure" order="1" sideWeight="0.50159746" side_tool="true" weight="0.2094818" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50079745" side_tool="true" weight="0.3296582" />
+      <window_info id="Web" order="7" sideWeight="0.50079745" side_tool="true" weight="0.3296582" />
+      <window_info id="Alibaba Cloud Explorer" order="8" sideWeight="0.49920255" weight="0.3296582" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" weight="0.657754" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32941177" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006605" side_tool="true" weight="0.26224157" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.33903742" />
+      <window_info anchor="bottom" id="Problems" order="12" weight="0.32941177" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32941177" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32941177" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="16" weight="0.3304813" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3296582" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Alibaba Cloud Explorer" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.38974643" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="0" weight="0.32941177" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4993395" weight="0.38716578" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006605" side_tool="true" weight="0.26224157" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.5262032" />
+      <window_info anchor="bottom" id="Problems" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3296582" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/service/dto/MenuDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-generator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/security/JwtAuthorizationTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/security/JwtUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/service/JwtUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/utils/JwtTokenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="109" column="68" lean-forward="true" selection-start-line="109" selection-start-column="68" selection-end-line="109" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/domain/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/repository/MenuRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/repository/PermissionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/repository/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/system/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/resources/log4jdbc.log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-tools/src/main/java/gree/config/MultipartConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-tools/src/main/java/gree/util/QiNiuUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-tools/src/main/java/gree/util/AlipayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-tools/src/main/java/gree/util/AliPayStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-generator/src/main/java/gree/utils/ColUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/config/annotation/ResourceHandlerRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/config/ConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/spi/FilterReply.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/config/LogFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/config/LoggerQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/config/VisitsInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/config/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="51" column="67" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/domain/LogMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/domain/Visits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/domain/vo/RedisVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/repository/VisitsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/rest/LimitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/rest/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/rest/VisitsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/service/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/service/impl/VisitsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/monitor/service/VisitsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/security/AuthenticationInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/security/AuthorizationUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/modules/security/security/JwtAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-common/src/main/java/gree/redis/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="171">
+            <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-common/src/main/java/gree/config/SessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/resources/fastjson.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/java/gree/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/resources/generator.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/resources/config/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/resources/config/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-system/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eladmin-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
